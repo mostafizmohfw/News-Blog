@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+p {
+    margin: 0!important;
+}
+hr{
+    margin: 5px!important;
+    color: darkcyan;
+}
+.post-table tr{
+    border-bottom: 1px solid black;
+}
+.post-table th, .post-table td {
+    vertical-align: middle !important;
+    text-align: center;
+    font-size: 13px;
+}
+.post-table td img{
+    width: 75px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none!important;
+    color: darkcyan;
+}
+a:hover{
+    color: darkblue;
+}

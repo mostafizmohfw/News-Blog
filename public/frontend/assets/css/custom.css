@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.sidebar-sub-category {
+    padding-left: 20px;
+}
+.sidebar-sub-category li{
+    padding: 5px 0!important;
+    margin: 0!important;
+}
+.sidebar-sub-category li a{
+    font-size: 14px!important;
+    color: gray!important;
+}
+.sidebar-sub-category li a:hover{
+    color: #f48840!important;
+}
+
+.read-more-button{
+    font-size: 12px;
+    border: 1px solid silver;
+    background: silver;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: .3s all ease-in-out;
+}
+.read-more-button:hover{
+    color: #f48840;
+    border: 1px solid #f48840;
+    background: white;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/*.post-description img{*/
+/*    width: 150px;*/
+/*}*/
+
+.swal2-container.swal2-top-end.swal2-backdrop-show {
+    z-index: 99999!important;
+}
+.author-thumb img{
+    width: 75px;
+    border-radius: 50%;
+}
+.blog-posts .comments ul li .right-content{
+    margin-left: 100px!important;
+}
